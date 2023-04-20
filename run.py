@@ -1,4 +1,6 @@
-from App import app
+from App import app, db
 
 if __name__ == '__main__':
     app.run(debug=True)
+
+db.create_all()
