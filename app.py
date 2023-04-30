@@ -1,6 +1,7 @@
-from App import app, db
+"""Application entry point."""
+from app import create_app
 
-if __name__ == '__main__':
+app = create_app()
+
+if __name__ == "__main__":
     app.run(debug=True)
-
-db.create_all()
