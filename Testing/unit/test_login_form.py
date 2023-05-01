@@ -1,3 +1,4 @@
+# pylint: disable=import-error
 from app.login.login_form import LoginForm
 
 def test_login_form():

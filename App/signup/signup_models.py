@@ -6,6 +6,7 @@ from app import db
 
 
 class User(UserMixin, db.Model):
+    
     """User account model."""
 
     __tablename__ = "user"

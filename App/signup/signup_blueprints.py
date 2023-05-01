@@ -50,6 +50,6 @@ def load_user(user_id):
 
 @login_manager.unauthorized_handler
 def unauthorized():
-    """Redirect unauthorized users to Login page."""
-    flash("You must be logged in to view that page.")
+    """Redirect unauthorized users to the login page."""
+    flash("You must be logged in to access this page.")
     return redirect(url_for("login_blueprints.login"))
