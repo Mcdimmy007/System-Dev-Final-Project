@@ -15,7 +15,7 @@ def login():
     """
     Log-in page for registered users.
 
-    GET requests serve Log-in page.
+    GET requests serve Login page.
     POST requests validate and redirect user to dashboard.
     """
     # Bypass if user is logged in

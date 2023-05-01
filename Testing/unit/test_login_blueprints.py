@@ -1,3 +1,4 @@
+# pylint: disable=undefined-variable
 import pytest
 from flask import Flask, session
 from app.login.login_form import LoginForm

@@ -1,7 +1,8 @@
 # test_home_blueprints.py
 
-from app import create_app
 from flask_socketio import SocketIOTestClient
+from app import create_app
+
 
 def test_home_blueprints():
     app = create_app()
