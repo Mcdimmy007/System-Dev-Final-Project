@@ -50,4 +50,7 @@ def test_home_blueprints():
             # Test leaving a room
             client.emit("leave_room")
             response = client.get_received()
+            assert len(response) == 1
+            assert response[0]["name"] == "leave_room_response"
+            assert response[0]["args"][0]["success"] == True
             
