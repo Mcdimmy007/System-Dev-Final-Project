@@ -1,4 +1,4 @@
-# Python-Pharma-Helath Chat App 
+# Python-Pharma-Health Chat App 
 
 ## System-Dev-Final-Project
 The problem domain of this project is healthcare and pharmaceuticals industry. In this industry, communication is lax and streamlining communication between healtcare providers and pharaceutical industry is paramount.
