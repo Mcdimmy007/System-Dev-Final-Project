@@ -26,7 +26,8 @@ def compile_static_assets(app):
     assets.register("account_less_bundle", account_less_bundle)
     assets.register("dashboard_less_bundle", dashboard_less_bundle)
     assets.register("js_all", js_bundle)
-    # Build assets
+
+    # Building the assets
     account_less_bundle.build()
     dashboard_less_bundle.build()
     js_bundle.build()

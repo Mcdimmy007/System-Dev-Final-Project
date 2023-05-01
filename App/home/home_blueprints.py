@@ -7,11 +7,11 @@ import random
 from string import ascii_uppercase
 from app import socketio
 
-# Reference
+# Reference for socketio
 # https://flask-socketio.readthedocs.io/en/latest/
 
 
-# Blueprint Configuration
+# The Configuration
 home_blueprints = Blueprint(
     "home_blueprints", __name__, template_folder="templates", static_folder="static"
 )
@@ -52,7 +52,7 @@ def home():
             room = generate_unique_code(4)
             rooms[room] = {"members": 0, "messages": []}
         elif code not in rooms:
-            return render_template("home.html", error="Room does not exist.", code=code, name=name)
+            return render_template("home.html", error="That room does not exist.", code=code, name=name)
 
         session["room"] = room
         session["name"] = name
