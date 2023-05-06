@@ -1,4 +1,4 @@
-"""Create and bundle CSS and JS files."""
+"""Creating and Bundling of the files"""
 from flask_assets import Bundle, Environment
 
 
