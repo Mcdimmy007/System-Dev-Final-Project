@@ -9,4 +9,6 @@ A prototype system that allows for easy and secure communication between healthc
 
 However, I had to reduce the scope of the project to only reflect secure messaging between the healthcare providers and pharmaceutical companies. Developing the other features such as file sharing and appointment scheduling like I originally planned was a bit too much, I therefore decided to scale down and go with the most important aspect of the prototype, which is communication. 
 
-This prototype app is in the form of a chatroom where users can register with a username and login information and enter a chatroom to have secure communication. If no chatroom exists, one can be created and the code can be given to other participants to join the chat room as well. I used socketio framework in Flask to execute this connection. Socketio can have up to 1400 concurrent connections at a time. 
+This prototype app is in the form of a chatroom where users can register with a username and login information and enter a chatroom to have secure communication. If no chatroom exists, one can be created and the code can be given to other participants to join the chat room as well. I used socketio framework in Flask to execute this connection. Socketio can have up to 20 or more people in a chatroom 
+
+All the requirements and library dependencies are in the virtual environment ".venv"
