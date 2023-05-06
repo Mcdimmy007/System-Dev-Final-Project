@@ -12,3 +12,14 @@ However, I had to reduce the scope of the project to only reflect secure messagi
 This prototype app is in the form of a chatroom where users can register with a username and login information and enter a chatroom to have secure communication. If no chatroom exists, one can be created and the code can be given to other participants to join the chat room as well. I used socketio framework in Flask to execute this connection. Socketio can have up to 20 or more people in a chatroom 
 
 All the requirements and library dependencies are in the virtual environment ".venv"
+
+How to test the app:
+- 1. Run "flask run" in the virtual environment
+- 2. Register on the registration page.
+- 3. Login with Username and password.
+- 4. Select a name and create a room.
+- 5. Open another tab, copy and paste the url excluding "/room"
+- 6. This will go back to the chatroom where you have the option to create or join chatroom.
+- 7. Select "join chatroom" and put in the code generated from the created chatroom.
+- 8. Now two windows should be opened, and two people should be able to chat with each other. 
+- 9. To exit, just close the chatroom window.
