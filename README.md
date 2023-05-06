@@ -14,12 +14,12 @@ This prototype app is in the form of a chatroom where users can register with a 
 All the requirements and library dependencies are in the virtual environment ".venv"
 
 How to test the app:
-- 1. Run "flask run" in the virtual environment
-- 2. Register on the registration page.
-- 3. Login with Username and password.
-- 4. Select a name and create a room.
-- 5. Open another tab, copy and paste the url excluding "/room"
-- 6. This will go back to the chatroom where you have the option to create or join chatroom.
-- 7. Select "join chatroom" and put in the code generated from the created chatroom.
-- 8. Now two windows should be opened, and two people should be able to chat with each other. 
-- 9. To exit, just close the chatroom window.
+-  Run "flask run" in the virtual environment
+-  Register on the registration page.
+-  Login with Username and password.
+-  Select a name and create a room.
+-  Open another tab, copy and paste the url excluding "/room"
+-  This will go back to the chatroom where you have the option to create or join chatroom.
+-  Select "join chatroom" and put in the code generated from the created chatroom.
+-  Now two windows should be opened, and two people should be able to chat with each other. 
+-  To exit, just close the chatroom window.
